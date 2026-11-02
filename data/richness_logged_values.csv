@@ -1,0 +1,11 @@
+window_px,series,gain_r2,lo,hi,source
+96,over_catalogue_baseline,0.111,0.059,0.163,project log (round 2: embedding + catalogue vs catalogue baseline)
+192,over_catalogue_baseline,0.167,,,project log (round 2; no interval logged)
+384,over_catalogue_baseline,0.311,,,project log (round 2; no interval logged)
+768,over_catalogue_baseline,0.400,0.316,0.475,project log (round 2)
+960,over_catalogue_baseline,0.405,0.324,0.482,project log (round 2)
+96,over_catalogue_plus_crowding_colour_counts,0.035,0.007,0.061,project log (round 5)
+192,over_catalogue_plus_crowding_colour_counts,0.034,0.012,0.056,project log (round 5)
+384,over_catalogue_plus_crowding_colour_counts,0.055,0.020,0.089,project log (round 5)
+768,over_catalogue_plus_crowding_colour_counts,0.140,0.089,0.187,project log (round 5)
+960,over_catalogue_plus_crowding_colour_counts,0.166,0.113,0.220,project log (round 5)
