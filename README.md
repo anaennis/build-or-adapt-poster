@@ -1,10 +1,3 @@
-<!-- DRAFT: remove this block before publishing.
-Remaining TODOs:
- 1. Add the STRRINGS data link (see the paper's data-availability section) in "Data and acknowledgements".
- 2. Check the redMaPPer link is the source you actually used.
- 3. Add the repo URL to the poster QR code.
--->
-
 # Build or Adapt? Tests of foundation models on survey tiles
 
 Poster for the Center for Decoding the Universe (C4DU) Fall Forum, November 9, 2026.
@@ -123,13 +116,13 @@ Optional: set `FONT_PATH=/path/to/LibreBaskerville.ttf` to use the poster font. 
 
 ## Data and acknowledgements
 
-Imaging: the DESI Legacy Imaging Surveys. Please see the [Legacy Surveys acknowledgment](https://www.legacysurvey.org/acknowledgment/) (which also has the extra wording for the Siena Galaxy Atlas). The images are CC BY 4.0, credited "Legacy Surveys / D. Lang (Perimeter Institute)". No survey images, labels, catalogues or model weights are redistributed in this repo; the cutout in `figures/windows_example.jpg` is a single example.
+Imaging: the DESI Legacy Imaging Surveys. Please see the [Legacy Surveys acknowledgment](https://www.legacysurvey.org/acknowledgment/) (which also has the extra wording for the Siena Galaxy Atlas). The images are CC BY 4.0, credited "Legacy Surveys / D. Lang (Perimeter Institute)". Tidal-feature labels: the STRRINGS catalogue (Sola et al. 2025), available as supplementary material with the [online MNRAS article](https://doi.org/10.1093/mnras/staf1647). No survey images, labels, catalogues or model weights are redistributed in this repo; the cutout in `figures/windows_example.jpg` is a single example.
 
 ## References
 
 - **DINOv3.** Siméoni, O., Vo, H. V., Seitzer, M., et al. 2025, *DINOv3*, [arXiv:2508.10104](https://arxiv.org/abs/2508.10104). Code: [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3). Checkpoint used: `facebook/dinov3-vitb16-pretrain-lvd1689m` on Hugging Face, released by Meta under its own DINOv3 licence.
 - **AION-1.** Parker, L., Lanusse, F., Shen, J., et al. 2025, *AION-1: Omnimodal Foundation Model for Astronomical Sciences*, [arXiv:2510.17960](https://arxiv.org/abs/2510.17960). Code: [PolymathicAI/AION](https://github.com/PolymathicAI/AION). Weights on Hugging Face (`polymathic-ai/aion-base`, MIT licence).
-- **STRRINGS (tidal-feature labels).** Sola, E., Chemaly, D., Belokurov, V., et al. 2025, *STRRINGS: STReams in Residual Images of Nearby GalaxieS*, MNRAS 544, 735, [doi:10.1093/mnras/staf1647](https://doi.org/10.1093/mnras/staf1647), [arXiv:2508.02154](https://arxiv.org/abs/2508.02154). The paper's tidal-feature catalogue covers 19,387 SGA-2020 galaxies with z up to 0.02. [TODO: add the catalogue link from the paper's data-availability section.]
+- **STRRINGS (tidal-feature labels).** Sola, E., Chemaly, D., Belokurov, V., et al. 2025, *STRRINGS: STReams in Residual Images of Nearby GalaxieS*, MNRAS 544, 735, [doi:10.1093/mnras/staf1647](https://doi.org/10.1093/mnras/staf1647), [arXiv:2508.02154](https://arxiv.org/abs/2508.02154). The paper's tidal-feature catalogue covers 19,387 SGA-2020 galaxies with z up to 0.02. The catalogue (the paper's Table 1) is published as supplementary material with the [online MNRAS article](https://doi.org/10.1093/mnras/staf1647).
 - **Siena Galaxy Atlas.** Moustakas, J., Lang, D., Dey, A., et al. 2023, *Siena Galaxy Atlas 2020*, ApJS 269, 3, [doi:10.3847/1538-4365/acfaa2](https://doi.org/10.3847/1538-4365/acfaa2), [arXiv:2307.04888](https://arxiv.org/abs/2307.04888).
 - **Legacy Surveys.** Dey, A., Schlegel, D. J., Lang, D., et al. 2019, *Overview of the DESI Legacy Imaging Surveys*, AJ 157, 168, [doi:10.3847/1538-3881/ab089d](https://doi.org/10.3847/1538-3881/ab089d), [arXiv:1804.08657](https://arxiv.org/abs/1804.08657).
 - **DES Y3 redMaPPer clusters.** DES Collaboration 2025, *Dark Energy Survey Year 3 Results: Cosmological Constraints from Cluster Abundances, Weak Lensing, and Galaxy Clustering*, [arXiv:2503.13632](https://arxiv.org/abs/2503.13632). Catalogue (redMaPPer v6.4.22+2): [DES release page](https://des.ncsa.illinois.edu/releases/y3a2/Y3key-cluster). Algorithm: Rykoff, E. S., Rozo, E., Hollowood, D., et al. 2016, ApJS 224, 1, [arXiv:1601.00621](https://arxiv.org/abs/1601.00621).
